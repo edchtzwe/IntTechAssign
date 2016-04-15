@@ -1,0 +1,241 @@
+.topHead
+{
+	height:20%;
+}
+
+.bodyNSidebar
+{
+	height:60%;
+	width:100%
+}
+
+body
+{
+	background-image:url("images/background image 2.jpg");
+	min-height:1150px;
+	min-width:1150px;
+}
+
+table th
+{
+	border:1px solid black;
+}
+
+
+table tr  td
+{
+	border:1px solid black;
+}
+
+h1
+{
+	font-size:70px;
+	color:green;
+	margin-top:0;
+}
+
+h3
+{
+	font-size: 20px;
+}
+
+#body /*the place to put all the content*/
+{
+	margin-left:1%;
+	background-color: wheat;
+	float:left;
+	width:80%;
+	margin-bottom:10px;
+}
+
+#body a
+{
+	text-decoration:none;
+}
+
+/*end of body setting*/
+
+#sidebar{
+	margin-left:1%;
+	float:left;
+	width:17%;
+	margin-bottom:3%;
+	background-color:#66CC33;
+	position:relative;
+}
+
+/*footer start*/
+#footer{
+	clear:both;
+	text-align: center;
+}
+
+#bottompart p  /*setting for the words at the footer */
+{
+	color: yellow;
+	text-align: center;
+	font-weight: bold;
+}
+/*end of footer*/
+
+#font30
+{	
+	font-size:30px;
+}
+
+
+/*the css setting for the side bar*/
+#nobullet
+{
+	list-style:none;
+	margin-right:1%;
+	margin-left:3%;
+    padding:0;
+}
+
+#nobullet ul
+{
+	float: left;
+	width:100%;
+	margin:0px;
+	padding:1px;
+	border:1px solid #cfe7aa;
+}
+
+#nobullet li
+{
+	display:block;
+	text-decoration:none;
+	color:#679b14;
+	background-color:#cfe8a7;
+	padding-bottom:1px;
+	padding:5px;
+}
+#nobullet li a
+{
+	display:block;
+	font-family:"times new roman", georgia, sans-seriff;
+	font-size:15px;
+	color:#679b14;
+	text-decoration:none;
+	background-color:#cfe8a7;
+	padding:5px;
+}
+
+#nobullet li a:hover /*setting when the mouse hover over the links*/
+{
+	border-left:14px solid #a3d15a;
+	background-color:#c3dd9a;
+}
+
+#menuSub
+{
+	margin-left:20px;
+	padding:0px;
+	border:0px;
+}
+
+.nav
+{
+	font-size:30px;
+	font-style:italic;
+	font-weight:bold;
+}
+/*end of css setting for the side bar*/
+
+img#banner /*setting for the banner image*/
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:98%; 
+	height:20%;
+}
+
+img#mountpict	/*the setting for the picture of mount santubong @ history*/
+{
+	width:80%;
+	height:55%;
+}
+
+#indent
+{
+	display: block;
+	margin-left: 20px;
+	font-style: italic;
+}
+
+/*start of column 1*/
+#col1
+	{
+	float: left;
+	width: 20%;
+	margin-left:1%;
+	margin-right:2px;
+	background-color: cyan;
+	}
+
+#col1 ul
+{
+	float: left;
+	width:100%;
+	margin:0px;
+	padding:1px;
+	border:1px solid #cfe7aa;
+}
+
+#col1 li
+{
+	display:block;
+	text-decoration:none;
+	color:#F0F8FF;
+	background-color:black;
+	padding-bottom:1px;
+	padding:5px;
+	list-style-type: none;
+}
+
+#col1 li a
+{
+	color: #F0F8FF;
+	display:block;
+	font-family:"times new roman", georgia, sans-seriff;
+	font-size:15px;
+	text-decoration:none;
+	background-color:black;
+	padding:5px;
+}
+
+#col1 li a:hover
+{
+	border-left:14px solid grey;
+	background-color:black;
+}
+
+	/*end of column 1*/
+
+#col2
+{
+	float: left;
+	width: 78%;
+	margin-left:0;
+	margin-bottom: 10px;
+	display: inline;
+	background-color: yellow;
+}
+
+.space
+{
+	color: #cfe8a7;
+	font-size: 20px;
+	margin-left: -17%;
+}
+
+#gallery{
+	display:inline;
+}
+
+.img{
+	width:320px;
+	height:240px;
+}

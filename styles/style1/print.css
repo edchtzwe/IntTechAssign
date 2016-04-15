@@ -1,0 +1,108 @@
+/*author:Chong Tze Wei id:7440820 Last updated:13/4/13*/
+
+a:link{color:rgb(65,65,65);}
+
+a:hover{color:rgb(207,207,207);}
+a:active{color:rgb(127,127,127);}
+
+#banner{
+	width:100%;
+}
+
+body{
+}
+
+#heading{
+	font-family:arial;
+}
+
+#menu{
+	float:left;	
+	width:100%;
+	height:10%;
+}
+
+.bodyNSidebar{
+	height:60%;
+	width:100%
+}
+
+#body{	
+	float:right;	
+	width:75%;
+	height:auto;
+	margin-bottom:3%;
+}
+
+.content{
+	color:rgb(74,74,74);
+	font-size:150%;
+}
+
+#menuSub{
+	color:rgb(108,108,108);
+	font-size:80%;
+}
+
+#sidebar{
+	float:left;
+	color:rgb(153,153,153);
+	font-size:150%;
+	width:19%;
+	height:680px;
+	margin-left:3%;
+	margin-bottom:3%;
+}
+
+#index_image{
+	width:80%;
+	height:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#pic{	
+	margin-left:300px;
+}
+
+#after_pic{
+	color:rgb(37,37,37);
+	font-size:100%;
+	text-align:center;
+}
+
+
+#li_menu{
+	list-style-type:none;
+	text-decoration:underline;
+	color:rgb(116,116,116);
+	font-family:"helvetica",sans-serif;
+}
+
+table, th, td{
+	border:1px solid black;
+}
+
+th{
+
+}
+
+td{
+
+}
+
+#footer{
+	clear:both;
+	text-align:center;
+	color:rgb(166,166,166);
+	height:50px;
+}
+
+.img{
+	width:320px;
+	height:240px;
+}
+
+#gallery{
+	display:inline;
+}

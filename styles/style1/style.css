@@ -1,0 +1,117 @@
+/*author:Chong Tze Wei id:7440820 Last updated:13/4/13*/
+
+a:link{color:rgb(13,2,145);}
+
+a:hover{color:rgb(149,140,253);}
+a:active{color:rgb(225,223,255);}
+
+
+
+#banner{
+	width:100%;
+}
+
+body{
+	background-image:url("images/style1_body.png");
+	min-height:1150px;
+	min-width:1150px;
+}
+
+#heading{
+	font-family:arial;
+}
+
+#menu{
+	float:left;	
+	width:100%;
+	height:10%;	
+}
+
+.bodyNSidebar{
+	height:60%;
+	width:100%
+}
+
+#body{	
+	float:right;
+	background-image:url("images/style1_content_bg.png");	
+	width:75%;
+	height:auto;
+	margin-bottom:3%;
+}
+
+.content{
+	color:#003366;
+	font-size:150%;
+}
+
+#menuSub{
+	color:green;
+	font-size:75%;
+}
+
+#sidebar{
+	float:left;
+	color:#660066;
+	font-size:150%;
+	width:17%;
+	height:680px;
+	margin-left:3%;
+	margin-bottom:3%;
+	text-align:left;
+	background-image:url("images/style1_side_bg.png");
+}
+
+#index_image{
+	width:320;
+	height:240;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#pic{	
+	margin-left:300px;
+}
+
+#after_pic{
+	color:#003366;
+	font-size:100%;
+	text-align:center;
+}
+
+
+#li_menu{
+	list-style-type:none;
+	text-decoration:underline;
+	color:#FF4719;
+	font-family:"helvetica",sans-serif;
+}
+
+table, th, td{
+	border:1px solid black;
+}
+
+th{
+	background-image:url("images/tableBg.png");
+}
+
+td{
+	background-image:url("images/tdBg.png");
+}
+
+#footer{
+	clear:both;
+	text-align:center;
+	color:rgb(86,70,232);
+	height:50px;
+	background-image:url("images/foot.png");
+}
+
+.img{
+	width:320px;
+	height:240px;
+}
+
+#gallery{
+	display:inline;
+}

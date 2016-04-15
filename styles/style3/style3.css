@@ -1,0 +1,262 @@
+/*
+File: style1.css
+Student Name: Daniel Fan Chun Yin
+Student ID: 7439865
+*/
+
+/*content style starts*/
+
+a:link {
+	color:blue;
+}      /* unvisited link */
+
+a:visited {
+	color:blue;
+}  /* visited link */
+
+a:hover {
+	color:#FF00FF;
+}  /* mouse over link */
+
+a:active {
+	color:black;
+}  /* selected link */
+
+.topHead{
+	height:20%;
+	margin-bottom: 30px;
+}
+
+body{
+	background-image:url("images/background.jpg");
+	min-width:1150px;
+	min-height:1150px;
+}
+
+/*header style starts*/
+img#banner {   
+	display: block;  
+	margin-left: auto;   
+	margin-right: auto;
+	height:30%;
+	width:70%
+}
+/*header style ends*/
+
+img.center{
+	display: block;  
+	margin-left: auto;   
+	margin-right: auto;
+	height:50%;
+	width:70%
+}
+
+h2{
+	font-size:12pt;
+	font-weight:bold;
+}
+
+#heading{
+	font-family: "Comic Sans MS", Arial	, sans-serif;
+	font-size: 30px;
+	text-align:center;
+}
+
+.bodyNSidebar{
+	height:60%;
+	width:100%
+}
+
+.floatleft{
+	float:left;
+}
+
+.floatright{
+	float:right;
+}
+table, th, td{
+	border:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#body{
+	font-family: "Comic Sans MS", Arial	, sans-serif;
+	float:right;
+	width:70%;
+	border: 1px solid black;
+	margin-bottom:3%;
+	background-color:#FFF8DC;
+	padding: 2% 2% 2% 2%;
+}
+
+a{
+	text-decoration:none;
+}
+
+
+blockquote{
+			font-style:italic;
+			font-size:13pt;
+}
+
+/*content style ends*/
+
+/* sidebar style starts*/
+#nobullet{
+	list-style-type:none;
+	}
+
+#sidebar{
+	text-align:left;
+	float:left;
+	width:22%;
+	font-family: "Comic Sans MS", Arial	, sans-serif;
+	font-size:10pt;
+	background-image:url("images/pic_sidebar.png");
+	background-size:100% 100%;
+	position:relative;
+}
+
+ul.space{
+	margin-top:110px;
+	margin-bottom:110px;
+}
+
+#sidebar a:link {
+	color:#A0522D;
+}      /* unvisited link */
+
+#sidebar a:visited {
+	color:#A0522D;
+}  /* visited link */
+
+#sidebar a:hover {
+	color:#FF00FF;
+}  /* mouse over link */
+
+#sidebar a:active {
+	color:blue;
+}  /* selected link */
+
+#discbullet{
+	list-style-type:disc;
+	}
+
+
+	
+
+.index{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.about{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.group{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.contact{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.feedback{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.gallery{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.get{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.food{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.accom{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.hist{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+
+.hike{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.fnf{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.myth{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.feedback{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.sVil{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.tomb{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+.cIntro{font-style:italic;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:yellow;
+	width:70%;}
+	
+/* sidebar style ends */
+
+/*footer style starts*/
+
+#footer{
+	font-family: Georgia, "Times New Roman", serif;
+	text-align:center;
+	clear:both;
+	background-color:#FFF8DC;
+	border: 1px solid black;
+}
+
+#design{
+	color:grey;
+}
+
+/*footer style ends*/
+
+/*for gallery use*/
+.img{
+	width:320px;
+	height:240px;
+}
+
+#gallery{
+	display:inline;
+}
