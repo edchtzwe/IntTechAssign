@@ -1,0 +1,3 @@
+#The theme of this assignment is to convert all the HTML files from the previous assignment to PHP. 
+#Also, this assignment is meant to demonstrate PHP form controls.
+#Bonus feature that determines HDs to other grades it the ability to use the browser's built-in style viewer and keep the style static across pages. As the user changes a style on page1 and then moves on to page2, the style change should persist, even after movements to page5. This functionality is to be written in Javascript and our team was the only one that accomplished this in our batch.
